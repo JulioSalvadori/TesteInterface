@@ -43,7 +43,7 @@ public class Telamestre extends javax.swing.JFrame {
         jLabel1.setBackground(new java.awt.Color(0, 204, 204));
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/testeinterface/walmart.jpg"))); // NOI18N
         jDesktopPane1.add(jLabel1);
-        jLabel1.setBounds(290, 190, 260, 200);
+        jLabel1.setBounds(290, 30, 260, 200);
 
         jMenu1.setText("Cadastrar");
 
