@@ -78,9 +78,6 @@
     </Component>
     <Component class="javax.swing.JButton" name="jbsalvar">
       <Properties>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\uilian\Desktop\100PHOTO\SAM_1506.JPG"/>
-        </Property>
         <Property name="text" type="java.lang.String" value="salvar"/>
         <Property name="enabled" type="boolean" value="false"/>
       </Properties>
@@ -355,7 +352,7 @@
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="10" y="10" width="260" height="130"/>
+          <AbsoluteConstraints x="20" y="10" width="260" height="130"/>
         </Constraint>
       </Constraints>
     </Component>

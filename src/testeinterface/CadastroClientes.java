@@ -90,7 +90,6 @@ public class CadastroClientes extends javax.swing.JInternalFrame {
         getContentPane().add(jbnovo);
         jbnovo.setBounds(760, 10, 100, 41);
 
-        jbsalvar.setIcon(new javax.swing.ImageIcon("C:\\Users\\uilian\\Desktop\\100PHOTO\\SAM_1506.JPG")); // NOI18N
         jbsalvar.setText("salvar");
         jbsalvar.setEnabled(false);
         jbsalvar.addActionListener(new java.awt.event.ActionListener() {
@@ -221,7 +220,7 @@ public class CadastroClientes extends javax.swing.JInternalFrame {
         jLabel12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/testeinterface/walmart.jpg"))); // NOI18N
         jLabel12.setText("jLabel12");
         getContentPane().add(jLabel12);
-        jLabel12.setBounds(10, 10, 260, 130);
+        jLabel12.setBounds(20, 10, 260, 130);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
