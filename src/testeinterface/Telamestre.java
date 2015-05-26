@@ -5,6 +5,8 @@
  */
 package testeinterface;
 
+import java.awt.Toolkit;
+
 /**
  *
  * @author uilian
@@ -15,7 +17,15 @@ public class Telamestre extends javax.swing.JFrame {
      * Creates new form Telamestre
      */
     public Telamestre() {
+        this.setUndecorated (true);
+        this.setAlwaysOnTop(true);
+        this.setResizable(false);
+        this.setVisible(true);
         initComponents();
+        Toolkit tk =Toolkit.getDefaultToolkit();
+        int xsize =(int) tk.getScreenSize() .getWidth();
+        int ysize =(int) tk.getScreenSize() .getHeight();
+        this.setSize(xsize,ysize);
     }
 
     /**
@@ -43,7 +53,7 @@ public class Telamestre extends javax.swing.JFrame {
         jLabel1.setBackground(new java.awt.Color(0, 204, 204));
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/testeinterface/walmart.jpg"))); // NOI18N
         jDesktopPane1.add(jLabel1);
-        jLabel1.setBounds(290, 30, 260, 200);
+        jLabel1.setBounds(390, 200, 260, 200);
 
         jMenu1.setText("Cadastrar");
 
@@ -95,6 +105,7 @@ public class Telamestre extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
 
     private void jMenuItem1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem1ActionPerformed
         // TODO add your handling code here:
